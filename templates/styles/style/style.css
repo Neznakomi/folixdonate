@@ -1,0 +1,687 @@
+body {
+    background-color: #eee;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    font-family: 'Open Sans Regular', sans-serif;
+}
+.extra_color,
+b {
+    color: #FFAA00;
+}
+a {
+    text-decoration: none;
+}
+
+.butt {
+    padding-left: 12px;
+}
+
+
+.rules {
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    background-color: white;
+    color: black;
+    /* margin: -7px 394px 80px; */
+    margin-left: 943px;
+}
+.rules:hover {
+    color: black;
+    text-decoration: none;
+    background-color: #FF8C00;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.20)!important;
+    transition: 0.5s
+}
+
+.don {
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    background-color: white;
+    color: black;
+    margin: 0px -279px 0px;
+}
+.don:hover {
+    color: black;
+    text-decoration: none;
+    background-color: #FF8C00;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.20)!important;
+    transition: 0.5s
+}
+
+body > .outlinks {
+    position: fixed;
+    right: 20px;
+    z-index: 1;
+    top: 50%;
+    margin-top: 0;
+}
+
+body > .outlinks > ul > li {
+    display: block;
+    list-style: none;
+    text-align: right;
+    padding-bottom: 8px;
+}
+
+body > .outlinks > ul > li:last-child {
+    padding: 0;
+}
+
+body > .outlinks > ul > li > .item {
+    font-size: 0;
+    color: #fff;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+body > .outlinks > ul > li:hover > .item {
+    width: 100%;
+}
+
+body > .outlinks > ul > li > .item > .icon-block,
+body > .outlinks > ul > li > .item > .text-block {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 44px;
+    height: 48px;
+    font-size: 14px;
+}
+
+body > .outlinks > ul > li > .item > .icon-block {
+    width: 48px;
+    text-align: center;
+    font-size: 31px;
+    border-radius: 50%;
+    background-color: #5181b8;
+    padding: 7px 0px 0px;
+}
+
+body > .outlinks > ul > li > .item > .text-block {
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link{color:black}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{color:black}
+.navbar-dark .navbar-nav .nav-link.disabled{color:black}
+.navbar-dark .navbar-nav .active>.nav-link,.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link.show,.navbar-dark .navbar-nav .show>.nav-link{color:black}
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover{color:#FF8C00}
+
+.vblack, .vblack:active, .vblack:link, .vblack:visited {
+    color: black;
+}
+
+p {
+    color: black;
+    display: flex;
+}
+.tabs {
+    /* margin: 0 auto; */
+}
+.servers {
+    width: 539px;
+    /* margin: 0px 0px; */
+}
+.tabs_cap {
+    vertical-align: middle;
+    display: table-cell;
+}
+.tabs__caption {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    position: relative;
+    margin: -1px 0 0 -1px;
+}
+.tabs__caption li:last-child:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: -2px;
+    z-index: -1;
+    height: 5px;
+}
+.tabs__caption:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.tabs__caption li {
+    transition: all 0.5s;
+    background: #f4c82d;
+    border-radius: 50px;
+    border: none;
+    padding: 12px;
+    margin: 15px 0;
+    font-family: "Open Sans Bold";
+    padding: 9px 15px;
+    margin: 1px 0 10px 1px;
+    text-align: center;
+}
+.tabs__caption li:not(.active) {
+    cursor: pointer;
+}
+.tabs__caption li:not(.active):hover {
+    background: #ffd951;
+    border-color: #ffd951;
+}
+.tabs__caption .active {
+    background: #FFF;
+    color: #000;
+    border-color: #f4c82d;
+}
+.tabs__caption .active:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 5px;
+}
+.tabs__content {
+    display: none;
+}
+.tabs__content.active {
+    display: block;
+}
+ul {
+    padding: 0;
+}
+.header {
+    text-align: center;
+    height: 21%;
+    font-size: 16px;
+    font-family: 'Open Sans Regular';
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+.header span > span {
+    padding-right: 10px;
+}
+.header .info {
+    display: inline-block;
+    width: 70%;
+    float: right;
+    margin-top: 7px;
+}
+.header .info a {
+    color: #fff !important;
+    opacity: 1;
+    transition: opacity 0.5s;
+    text-decoration: none !important;
+}
+.header .info a:hover {
+    opacity: 0.5;
+}
+.header .info .vk {
+    margin: 0 0 3px 15px;
+}
+.header .info .help {
+    float: left;
+    width: 57%;
+}
+.header .info .contacts {
+    font-weight: bold;
+    float: right;
+    width: 43%;
+}
+.header .info .problem {
+    padding-right: 20px;
+}
+.header .logo {
+    display: inline-block;
+    font-family: 'Proxima Nova Bold';
+    font-size: 35px;
+    float: left;
+    width: 26%;
+    margin-top: -8px;
+}
+.main {
+    /* height: 76%; */
+    text-align: center;
+    /* min-height: 550px; */
+    width: 1194px;
+}
+
+.infof {
+    /* margin: 0px 582px auto; */
+    /* position: fixed; */
+    /* width: 496px; */
+    /*min-height: 355px; */
+}
+
+.infod {
+    position: static;
+
+}
+
+@media (max-width: 1000px) {
+
+
+    .footer {
+        text-align: center;
+        font-size: 12px;
+        position: relative;
+        margin-top: 20px;
+        margin: 100px 400px 100px;
+    }
+    .footer .dev {
+        margin-right: 10px;
+    }
+
+    body > .outlinks {
+        position: fixed;
+        right: 929px;
+        z-index: 1;
+        top: 25%;
+        /* margin-top: 5px; */
+    }
+
+}
+
+.main div {
+    /* height: 76%; */
+    width: 536px;
+}
+
+.main h1.name {
+    font-size: 52px;
+    font-family: 'Open Sans ExtraBold';
+    margin: 0 0 2px 0;
+}
+.main .info b {
+    font-family: "Open Sans SemiBold";
+}
+.main .info {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.main .form {
+    width: 365px;
+    margin: 0 auto;
+}
+.main .form option {
+    color: black;
+}
+.main .form input:focus,
+.main .form select:focus {
+    border-bottom-color: #f4c82d;
+    outline: none;
+}
+.main .form select {
+    cursor: pointer;
+}
+.main .form select optgroup,
+.main .form select option {
+    color: black !important;
+    background: #fff;
+}
+.main .form input::-webkit-input-placeholder {
+    color: #fff;
+}
+.main .form input,
+.main .form select {
+    display: inline-block;
+    border-width: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    background: none;
+    margin: 12px auto;
+    padding: 5px;
+    width: 100%;
+    color: #fff !important;
+    font-size: 16px;
+    border-bottom-color: #fff;
+}
+
+.btn-buy {
+    background-color: #FF8C00;
+}
+.btn-buy, .btn-buy:disabled, .btn-buy:hover, .btn-buy:active {
+    background-color: #FF8C00;
+    border: 1px solid #FF8C00;
+    color: white;
+}
+.btn-buy:hover {
+    box-shadow: 0 0 10px black;
+}
+
+
+.donat {
+    /* width: 137%; */
+    /* margin: auto 4%; */
+    margin-top: -2%;
+    font-family: 'Exo 2';
+    display: flex;
+    flex: 12px 10px;
+    /* padding: 0px 69px 10px; */
+    /* margin: 2px 6px 13px; */
+    text-align: center;
+}
+.donat h2 {
+    font-size: 24px;
+}
+.donat > div p.name {
+    margin-top: 2px;
+}
+
+.donat > div {
+    margin: 6px 17px 6px;
+}
+
+.donat > div p.priv {
+    color: #ffffff;
+    border-color: #ffeb3b;
+    /* border-bottom-style: hidden; */
+    /* border-top: hidden; */
+    /* border-inline-end: none; */
+    /* border-collapse: separate; */
+    border-radius: 10px;
+    background-color: #f3bd2b;
+    font-family: 'Open Sans Bold';
+    font-style: oblique;
+    font-style: italic;
+}
+.donat > div p {
+    margin: 0px 5px 0px;
+    text-align: center;
+    font-size: 14px;
+    /* text-align: left; */
+    /* padding: 0px 0px 4px; */
+    padding-right: -76px;
+    /* contain: content; */
+    margin: inherit;
+}
+.donat > div img {
+    width: 70px;
+    height: 70px;
+    border: 1px;
+    background: black;
+    border-radius: 4%;
+    margin-bottom: 3px;
+}
+
+.imgdon:hover {
+    width: 70px;
+    height: 70px;
+    border: 2px;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.100s;
+    background: black;
+    border-radius: 5%;
+
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    margin-top: 20px;
+}
+.footer .dev {
+    margin-right: 10px;
+}
+.alert {
+    width: auto !important;
+    display: inline-block; }
+
+
+
+/*
+  You want a simple and fancy tooltip?
+  Just copy all [data-tooltip] blocks:
+*/
+[data-tooltip] {
+    position: relative;
+    z-index: 10;
+}
+
+/* Positioning and visibility settings of the tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    left: 50%;
+    bottom: calc(100% + 5px);
+    pointer-events: none;
+    transition: 0.2s;
+    will-change: transform;
+}
+
+/* The actual tooltip with a dynamic width */
+[data-tooltip]:before {
+    content: attr(data-tooltip);
+    padding: 10px 18px;
+    min-width: 50px;
+    max-width: 300px;
+    width: max-content;
+    width: -moz-max-content;
+    border-radius: 6px;
+    font-size: 14px;
+    /*   font-size: 0.73rem; */
+    background-color: rgba(255, 255, 255, 0.9);
+    background-image: linear-gradient(30deg,
+    rgba(255, 255, 255, 0.44),
+    rgba(255, 255, 255, 0.44),
+    rgba(255, 255, 255, 0.44));
+    box-shadow: 1px 0px 24px rgba(0, 0, 0, 0.2);
+    color: #333;
+    text-align: center;
+    white-space: pre-wrap;
+    transform: translate(-50%, -5px) scale(0.5);
+}
+
+/* Tooltip arrow */
+[data-tooltip]:after {
+    content: '';
+    border-style: solid;
+    border-width: 5px 5px 0px 5px;
+    border-color: rgba(255, 255, 255, 0.9) transparent transparent transparent;
+    transition-duration: 0s; /* If the mouse leaves the element,
+                              the transition effects for the
+                              tooltip arrow are "turned off" */
+    transform-origin: top;   /* Orientation setting for the
+                              slide-down effect */
+    transform: translateX(-50%) scaleY(0);
+}
+
+/* Tooltip becomes visible at hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    visibility: visible;
+    opacity: 1;
+}
+/* Scales from 0.5 to 1 -> grow effect */
+[data-tooltip]:hover:before {
+    transition-delay: 0.3s;
+    transform: translate(-50%, -5px) scale(1);
+}
+/* Slide down effect only on mouseenter (NOT on mouseleave) */
+[data-tooltip]:hover:after {
+    transition-delay: 0.5s; /* Starting after the grow effect */
+    transition-duration: 0.2s;
+    transform: translateX(-50%) scaleY(1);
+}
+/*
+  That's it.
+*/
+
+
+
+/*
+  If you want some adjustability
+  here are some orientation settings you can use:
+*/
+
+/* LEFT */
+/* Tooltip + arrow */
+[data-tooltip-location="left"]:before,
+[data-tooltip-location="left"]:after {
+    left: auto;
+    right: calc(100% + 5px);
+    bottom: 50%;
+}
+
+/* Tooltip */
+[data-tooltip-location="left"]:before {
+    transform: translate(-5px, 50%) scale(0.5);
+}
+[data-tooltip-location="left"]:hover:before {
+    transform: translate(-5px, 50%) scale(1);
+}
+
+/* Arrow */
+[data-tooltip-location="left"]:after {
+    border-width: 5px 0px 5px 5px;
+    border-color: transparent transparent transparent rgba(55, 64, 70, 0.9);
+    transform-origin: left;
+    transform: translateY(50%) scaleX(0);
+}
+[data-tooltip-location="left"]:hover:after {
+    transform: translateY(50%) scaleX(1);
+}
+
+
+
+/* RIGHT */
+[data-tooltip-location="right"]:before,
+[data-tooltip-location="right"]:after {
+    left: calc(100% + 5px);
+    bottom: 50%;
+}
+
+[data-tooltip-location="right"]:before {
+    transform: translate(5px, 50%) scale(0.5);
+}
+[data-tooltip-location="right"]:hover:before {
+    transform: translate(5px, 50%) scale(1);
+}
+
+[data-tooltip-location="right"]:after {
+    border-width: 5px 5px 5px 0px;
+    border-color: transparent rgba(55, 64, 70, 0.9) transparent transparent;
+    transform-origin: right;
+    transform: translateY(50%) scaleX(0);
+}
+[data-tooltip-location="right"]:hover:after {
+    transform: translateY(50%) scaleX(1);
+}
+
+/* BOTTOM */
+[data-tooltip-location="bottom"]:before,
+[data-tooltip-location="bottom"]:after {
+    top: calc(100% + 5px);
+    bottom: auto;
+}
+
+[data-tooltip-location="bottom"]:before {
+    transform: translate(-50%, 5px) scale(0.5);
+}
+[data-tooltip-location="bottom"]:hover:before {
+    transform: translate(-50%, 5px) scale(1);
+}
+
+[data-tooltip-location="bottom"]:after {
+    border-width: 0px 5px 5px 5px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.9) transparent;
+    transform-origin: bottom;
+}
+
+.info-anim{
+    animation: amim ease 1s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    animation-fill-mode:forwards; /*when the spec is finished*/
+    -webkit-animation: amim ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+    -moz-animation: amim ease 1s;
+    -moz-animation-iteration-count: 1;
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-fill-mode:forwards; /*FF 5+*/
+    -o-animation: amim ease 1s;
+    -o-animation-iteration-count: 1;
+    -o-transform-origin: 50% 50%;
+    -o-animation-fill-mode:forwards; /*Not implemented yet*/
+    -ms-animation: amim ease 1s;
+    -ms-animation-iteration-count: 1;
+    -ms-transform-origin: 50% 50%;
+    -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes amim{
+    0% {
+        opacity:0;
+        transform:  translate(0px,-25px)  ;
+    }
+    100% {
+        opacity:1;
+        transform:  translate(0px,0px)  ;
+    }
+}
+
+@-moz-keyframes amim{
+    0% {
+        opacity:0;
+        -moz-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+        opacity:1;
+        -moz-transform:  translate(0px,0px)  ;
+    }
+}
+
+@-webkit-keyframes amim {
+    0% {
+        opacity:0;
+        -webkit-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+        opacity:1;
+        -webkit-transform:  translate(0px,0px)  ;
+    }
+}
+
+@-o-keyframes amim {
+    0% {
+        opacity:0;
+        -o-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+        opacity:1;
+        -o-transform:  translate(0px,0px)  ;
+    }
+}
+
+@-ms-keyframes amim {
+    0% {
+        opacity:0;
+        -ms-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+        opacity:1;
+        -ms-transform:  translate(0px,0px)  ;
+    }
+}
